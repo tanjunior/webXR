@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | valen tutorial</title>
+    <title>Unity WebGL Player | lab2</title>
     <meta name="description" content="">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
@@ -25,19 +25,19 @@
         <button id="entervr" value="Enter VR" disabled>VR</button>
         <button id="enterar" value="Enter AR" disabled>AR</button>
         <div id="unity-webxr-link">Using <a href="https://github.com/De-Panther/unity-webxr-export" target="_blank" title="WebXR Export">WebXR Export</a></div>
-        <div id="unity-build-title">valen tutorial</div>
+        <div id="unity-build-title">lab2</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Builds.loader.js";
+      var loaderUrl = buildUrl + "/webXR.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Builds.data.gz",
-        frameworkUrl: buildUrl + "/Builds.framework.js.gz",
-        codeUrl: buildUrl + "/Builds.wasm.gz",
+        dataUrl: buildUrl + "/webXR.data.unityweb",
+        frameworkUrl: buildUrl + "/webXR.framework.js.unityweb",
+        codeUrl: buildUrl + "/webXR.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "valen tutorial",
+        productName: "lab2",
         productVersion: "0.1",
       };
 
